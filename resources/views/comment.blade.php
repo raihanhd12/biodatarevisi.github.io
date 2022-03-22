@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comment</title>
-    <!-- File CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">   
-</head>
-<body>   
-<nav id="nav-item">
-         
-         <ul id="nav" class="nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="about">About Me</a></li>
-	         <li class="current" ><a href="comment">Comment</a></li>           
-         </ul> <!-- end #nav -->
+@extends('layouts/main')
 
-      </nav> <!-- end #nav-wrap --> 
+@section('tampilan')
 
    <!-- Comment Section
    ================================================== -->
@@ -129,13 +109,9 @@
                </span>               
             </li>
          </ul>
-
         </div>
-
    </aside>
-
 </div>
-
-</section> <!-- Contact Section End-->
-</body>
-</html>
+</section> <!-- Comment Section End-->
+    
+@endsection

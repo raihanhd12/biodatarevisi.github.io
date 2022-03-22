@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Raihan;
+use App\Http\Controllers\RaihanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,16 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/about', function () {
-    return view('about');
-});
-Route::get('/selengkapnya', function () {
-    return view('selengkapnya');
-});
-Route::get('/comment', function () {
-    return view('comment');
-});
+Route::get('/', [RaihanController::class,'index']);
+Route::get('/', [RaihanController::class,'home']);
+Route::get('/about',[RaihanController::class,'about']);
+Route::get('/comment',[RaihanController::class,'comment']);
+Route::get('/selengkapnya', [RaihanController::class,'selengkapnya']);
+
 

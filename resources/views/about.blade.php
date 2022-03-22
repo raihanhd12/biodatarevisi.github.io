@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    	<!-- File CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">   
-   
-</head>
+@extends('layouts/main')
 
-<body>   
-    <nav id="nav-item">
-         
-         <ul id="nav" class="nav">
-            <li><a href="/">Home</a></li>
-            <li class="current" ><a href="about">About Me</a></li>
-	         <li><a href="comment">Comment</a></li>           
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap --> 
+@section('tampilan')    
 
     <!-- About Section
    ================================================== -->
@@ -73,7 +51,6 @@
 </div>
 
 </section> <!-- About Section End-->
-
 
 <!-- Resume Section
 ================================================== -->
@@ -167,6 +144,8 @@
 
 </section> <!-- Resume Section End-->
 
+
+
 <!-- footer
 ================================================== -->
 <footer>
@@ -189,7 +168,7 @@
    </div>
 </div>
 
-</footer> <!-- Footer End-->
-</body>
-</html>
+</footer> <!-- Footer End-->    
+@endsection
+
    
