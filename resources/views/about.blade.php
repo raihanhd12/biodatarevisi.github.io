@@ -18,7 +18,7 @@
 
       <h2>About Me</h2>
 
-      <p>Perkenalkan saya Raihan Hidayatullah Djunaedi. Biasa dipanggil Raihan, Seorang pria yang suka bermain game dan juga mendengarkan musik.
+      <p>Perkenalkan saya {{ $nama }}. Biasa dipanggil {{ $namaPanggilan }}, Seseorang yang suka {{ $hobi }}.
       Mahasiswa Teknologi Informasi yang antusias dan bermotivasi tinggi untuk mencapai cita - citanya.
       </p>
 
@@ -28,12 +28,11 @@
 
             <h2>Contact</h2>
             <p class="address">
-                     <span>Raihan Hidayatullah Djunaedi</span><br>
-                     <span>Jl. Puspa VI No.32 Mekarmukti, Kec. Cikarang Utara,<br>
-               Kab. Bekasi, Jawa Barat 17530
+                     <span>{{ $nama }}</span><br>
+                     <span>{{ $alamat}}
                </span><br>
-                     <span>081906781639</span><br>
-               <span>itsmehannn@gmail.com</span>
+                     <span>{{ $noTelp }}</span><br>
+               <span>{{ $email }}</span>
                  </p>
 
          </div>
@@ -112,8 +111,8 @@
             SMP PRESIDEN adalah salah satu satuan pendidikan dengan jenjang SMP di Simpangan, Kec. Cikarang Utara, Kab. Bekasi, Jawa Barat.
              Dalam menjalankan kegiatannya, SMP PRESIDEN berada di bawah naungan Kementerian Pendidikan dan Kebudayaan. Saya menempuh pendidikan Menengah Pertama di
              SMP Presiden, yang beralamatkan di Jababeka. Dikarenakan orang tua saya mencari tempat tinggal yang lebih dekat dengan akses tol maka dari itu kita sekeluarga pindah
-             ke Jababeka, dimana dekat juga dengan sekolah saya. di SMP Presiden ini ada hal istimewanya menurut saya yaitu peraturan Black Book. Dimana ketika kita melakukakan pelanggaran
-             kita menulis pelanggaran kita di buku Black Book, Yang akan mempengaruhi nilai akademik yaitu pelajaran Leadership.
+             ke Jababeka, dimana dekat juga dengan sekolah saya. di SMP Presiden ini ada hal istimewanya menurut saya yaitu peraturan Black Book. Dimana ketika kita melakukakan
+             pelanggaran kita menulis pelanggaran kita di buku Black Book, Yang akan mempengaruhi nilai akademik yaitu pelajaran Leadership.
             </p>
 
          </div>

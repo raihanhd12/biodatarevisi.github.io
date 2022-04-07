@@ -66,30 +66,31 @@
         <h2 align="center" style="margin-top: -20px; color: #F06000;">_____________________________________________________________</h2>
         <table>
             <tr>
-                <td rowspan="8" width="100px"> <img src="images/raihan1.jpg" width="200px" style="display: block;border-radius: 5%;border-color:#F06000;margin-right:30px" border="2px" ></td>
+                <td rowspan="8" width="100px"> <img src="images/raihan1.jpg" width="200px" style="display: block;border-radius: 5%;border-color:#F06000;margin-right:30px"
+                     border="2px" ></td>
             </tr>
             <tr>
                 <td><b>Nama Lengkap</b></td>
-                <td>:</td> <td>Raihan Hidayatullah Djunaedi</td>
+                <td>:</td> <td>{{ $nama }}</td>
             </tr>
             <tr>
-                <td><b>Tempat Tanggal Lahir</b></td><td>:</td> <td>Bekasi, 12 Februari 2002</td>
+                <td><b>Tempat Tanggal Lahir</b></td><td>:</td> <td>{{ $ttl}}</td>
             </tr>
 
             <tr>
-                <td><b>Jenis Kelamin</b></td><td>:</td> <td>Laki - Laki</td>
+                <td><b>Jenis Kelamin</b></td><td>:</td> <td>{{ $jk }}</td>
             </tr>
             <tr>
-                <td><b>Umur</b></td><td>:</td> <td>20 Tahun</td>
+                <td><b>Umur</b></td><td>:</td> <td>{{ $umur }}</td>
             </tr> 
             <tr>
-                <td><b>Hobi</b></td><td>:</td> <td>Bermain Gitar dan Bermain Game</td>
+                <td><b>Hobi</b></td><td>:</td> <td>{{ $hobi }}</td>
             </tr>  
             <tr>
-                <td><b>Agama</b></td><td>:</td> <td>Islam</td>
+                <td><b>Agama</b></td><td>:</td> <td>{{ $agama }}</td>
             </tr>         
             <tr>
-                <td class="email"><b>Email</b></td><td>:</td><td><a href="mailto:itsmehann@gmail.com">itsmehannn@gmail.com</a></td>
+                <td class="email"><b>Email</b></td><td>:</td><td><a href="mailto:{{ $email }}">{{ $email }}</a></td>
             </tr>
         </table>
     </div>

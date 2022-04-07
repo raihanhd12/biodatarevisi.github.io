@@ -72,15 +72,13 @@
       <div class="widget widget_contact">
 
               <h4>Contact Saya</h4>
-              <p class="address">
-                     <span>Raihan Hidayatullah Djunaedi</span><br>
-                     <span>Jl. Puspa VI No.32 Mekarmukti, Kec. Cikarang Utara,<br>
-               Kab. Bekasi, Jawa Barat 17530
-               </span><br>
-                     <span>081906781639</span><br>
-               <span>itsmehannn@gmail.com</span>
-                 </p>
-
+               <p class="address">
+                  <span>{{ $nama }}</span><br>
+                  <span>{{ $alamat}}
+            </span><br>
+                  <span>{{ $noTelp }}</span><br>
+            <span>{{ $email }}</span>
+            </p>
           </div>
 
       <div class="widget widget_tweets">
